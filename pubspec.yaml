@@ -1,0 +1,19 @@
+name: odoo_network_kit
+description: >-
+  Production-ready network layer for Odoo (JSON-RPC). Authentication, session
+  persistence, ORM helpers (search_read, create, write, unlink, call_kw),
+  typed exceptions, retries and pretty request/response logging.
+version: 0.1.0
+repository: https://github.com/rupeshrajak0285/odoo_network_kit
+issue_tracker: https://github.com/rupeshrajak0285/odoo_network_kit/issues
+topics: [odoo, network, rpc, api, erp]
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  dio: ^5.4.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
